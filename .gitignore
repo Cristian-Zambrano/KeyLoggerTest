@@ -1,0 +1,35 @@
+# Ignorar entorno virtual
+venv/
+env/
+
+# Ignorar archivos de Python compilados
+__pycache__/
+*.py[cod]
+*$py.class
+
+# Ignorar archivos de configuración sensibles
+.env
+.env.*
+
+# Archivos temporales de editores
+*.swp
+*.swo
+*.bak
+*~
+*.tmp
+
+# Archivos de Jupyter y cachés
+.ipynb_checkpoints
+*.ipynb~
+
+# Carpetas de logs o salidas
+logs/
+*.log
+
+# Archivos del sistema operativo
+.DS_Store
+Thumbs.db
+
+# Configuración de IDEs (opcional)
+.vscode/
+.idea/
